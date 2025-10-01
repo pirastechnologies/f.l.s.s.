@@ -1,0 +1,21 @@
+{
+  "name": "flss",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p .",
+    "start": "node --enable-source-maps dist/index.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "@mrgnlabs/marginfi-client": "^2.0.0",
+    "dotenv": "^16.4.5",
+    "bn.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
